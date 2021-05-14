@@ -44,7 +44,7 @@ Name | Description | Format | Requirements
 `vat_tax_id`  | The company's Value Added Tax ID  | string  | Optional
 `reseller_id`  | Unique ID of the company reseller  | string  | Optional
 `comment`  | Additional details about the company | string | Optional
-`street` | Street address where the company is registered. The array can contain one or two lines. | Array[string] | Required to create or update a company.
+`street` | Street address where the company is registered. The array can contain one or two lines. | string | Required to create or update a company.
 `city` | The company's city  | string  | Required to create or update a company.
 `country_id` | The country where the company is registered. | string  | Required to create or update a company.
 `region` | State or province | string | Required to create or update a company.
